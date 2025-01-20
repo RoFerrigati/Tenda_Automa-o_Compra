@@ -8,9 +8,9 @@ Este projeto utiliza o **Cypress** para automação de testes de fluxo de compra
 
 1. Instale o [Visual Studio Code (VSCode)](https://code.visualstudio.com/).
 2. Instale o [Git](https://git-scm.com/).
-3. Clone este repositório utilizando o comando (substitua `<URL_DO_REPOSITORIO>` pela URL real do repositório):
+3. Clone este repositório utilizando o comando (substitua `https://github.com/RoFerrigati/Tenda_Automa-o_Compra` pela URL real do repositório):
    ```bash
-   git clone <URL_DO_REPOSITORIO>
+   git clone https://github.com/RoFerrigati/Tenda_Automa-o_Compra
    ```
 4. Instale o Node.js, que inclui o npm (Node Package Manager). [Download do Node.js](https://nodejs.org/).
 5. No diretório do projeto, instale as dependências do projeto:
