@@ -1,0 +1,20 @@
+{
+  "name": "projeto-tenda-pagamento",
+  "version": "1.0.0",
+  "scripts": {
+    "cypress:run": "npx cypress run --browser chrome",
+    "cypress:open": "npx cypress run --headed --browser chrome",
+    "cypress:run:css": "npx cypress run --spec 'cypress/e2e/CSS/**/*.cy.js' --browser chrome",
+    "cypress:open:css": "npx cypress run --headed --spec 'cypress/e2e/CSS/**/*.cy.js' --browser chrome",
+    "cypress:run:xpath": "npx cypress run --spec 'cypress/e2e/XPATH/**/*.cy.js' --browser chrome",
+    "cypress:open:xpath": "npx cypress run --headed --spec 'cypress/e2e/XPATH/**/*.cy.js' --browser chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.0.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
